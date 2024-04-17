@@ -97,7 +97,7 @@ class empresa {
             $i++;
         }
         
-        return $i;
+        return $objMotoInd;
     }
 
             /* 6. Implementar el método registrarVenta($colCodigosMoto, $objCliente) método que recibe por
@@ -115,7 +115,7 @@ class empresa {
         foreach ($colCodigosMoto as $moto){
             if($objCliente->getEstadoDeBaja()==true){
                  if($moto==$arrayColeccionMotosEmpresa[$i]){
-            
+            me rindo. 
                  }
             }
             $i++;
